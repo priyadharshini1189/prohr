@@ -1,4 +1,4 @@
-first clone the project 
+first clone the project in file.
 
 after 
 open the project in vs code
