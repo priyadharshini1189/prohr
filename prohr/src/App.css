@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+/* app.css */
+
+.navbar-logo {
+  height: 40px; /* Adjust the height to fit your navbar */
+  width: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link {
+  margin: 0 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link.btn-primary {
+  background-color: #007bff;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link.btn-primary:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.nav-link.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.nav-link.btn-success:hover {
+  background-color: #218838;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    width: 100%;
+    margin: 5px 0;
   }
 }
+
+/* app.css */
+
+.custom-navbar {
+  background-color: #c5d5da; /* Change this to your preferred color */
+  padding: 0.5rem 1rem;
+}
+
+.navbar-logo {
+  height: 40px; /* Adjust the height to fit your navbar */
+  width: auto;
+}
+
+.nav-link {
+  margin: 0 5px;
+}
+
+.nav-link.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.nav-link.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.nav-link.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.nav-link.btn-success:hover {
+  background-color: #218838;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
